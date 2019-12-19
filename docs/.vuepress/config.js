@@ -26,7 +26,7 @@ module.exports = {
         ],
         sidebar:{
             '/javascript/':[
-                '/javascript/JS对象',
+                '/javascript/作用域是什么',
             ]
         }
     },
