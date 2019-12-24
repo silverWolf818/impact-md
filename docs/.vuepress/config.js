@@ -12,21 +12,22 @@ module.exports = {
             {
                 text: 'javascript',
                 link: '/javascript/'
-            },{
+            }, {
                 text: 'css',
                 link: '/css/'
-            },{
+            }, {
                 text: 'react',
                 link: '/react/'
-            },{
+            }, {
                 text: 'tools',
                 link: '/tools/'
             }
 
         ],
-        sidebar:{
-            '/javascript/':[
+        sidebar: {
+            '/javascript/': [
                 '/javascript/作用域是什么',
+                '/javascript/Selection对象',
             ]
         }
     },
