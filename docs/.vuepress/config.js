@@ -27,6 +27,7 @@ module.exports = {
         sidebar: {
             '/javascript/': [
                 '/javascript/作用域是什么',
+                '/javascript/Range对象',
                 '/javascript/Selection对象',
             ]
         }
