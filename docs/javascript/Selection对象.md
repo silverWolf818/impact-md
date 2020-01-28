@@ -407,6 +407,8 @@ elem.onselectstart = () => false;
 
 3. 我们也可以使用 `document.getSelection().empty()` 来清除选区。这很少使用，因为会在选区选中和消失时导致不必要的闪烁。
 
+以上代码示例可以点击[查看](https://yaesakuras.github.io/react-ts/#/selection)
+
 如您需要更多需求，请参考 [规范](https://www.w3.org/TR/selection-api/) 或 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Selection) 手册。
 
 

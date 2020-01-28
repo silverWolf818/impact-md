@@ -8,27 +8,27 @@
 
 ### commonAncestorContainer
 
-- 返回完整包含 `startContainer` 和 `endContainer` 的、最深一级的节点。
+返回完整包含 `startContainer` 和 `endContainer` 的、最深一级的节点。
 
 ### collapsed
 
-- 返回一个表示 `Range` 的起始位置和终止位置是否相同的布尔值。
+返回一个表示 `Range` 的起始位置和终止位置是否相同的布尔值。
 
 ### startContainer
 
-- 返回包含 `Range` 开始的节点。
+返回包含 `Range` 开始的节点。
 
 ### startOffset
 
-- 返回一个表示 `Range` 起点在 `startContainer` 中的位置的数字（偏移量）。
+返回一个表示 `Range` 起点在 `startContainer` 中的位置的数字（偏移量）。
 
 ### endContainer
 
-- 返回包含 `Range` 结束的节点。
+返回包含 `Range` 结束的节点。
 
 ### endOffset
 
-- 返回一个表示 `Range` 起点在 `endContainer` 中的位置的数字（偏移量）。
+返回一个表示 `Range` 起点在 `endContainer` 中的位置的数字（偏移量）。
 
 ## 方法
 
@@ -36,35 +36,35 @@
 
 ### setStart(node, offset) 
 
-- 设置起始于：node 中的位置 offset
+设置起始于：node 中的位置 offset
 
 ### setStartBefore(node) 
 
-- 设置起始于：node 之前
+设置起始于：node 之前
 
 ### setStartAfter(node) 
 
-- 设置起始于：node 之后
+设置起始于：node 之后
 
 ### setEnd(node, offset) 
 
-- 设置结束于：node 中的位置 offset
+设置结束于：node 中的位置 offset
 
 ### setEndBefore(node) 
 
-- 设置结束于：node 之前
+设置结束于：node 之前
 
 ### setEndAfter(node) 
 
-- 设置结束于：node 之后
+设置结束于：node 之后
 
 ### selectNode(node) 
 
-- 设置范围以选择整个 `node`及其内容
+设置范围以选择整个 `node`及其内容
  
 ### selectNodeContents(node) 
 
-- 设置范围以选择整个 `node` 的内容
+设置范围以选择整个 `node` 的内容
 
 ### collapse(toStart) 
 
@@ -76,23 +76,23 @@
 
 ### deleteContents() 
 
-－ 从文档中删除范围内容
+从文档中删除范围内容
 
 ### extractContents()
  
-－ 从文档中删除范围内容，并返回 `DocumentFragment`
+从文档中删除范围内容，并返回 `DocumentFragment`
 
 ### cloneContents() 
 
-－ 复制范围内容，并返回 `DocumentFragment`
+复制范围内容，并返回 `DocumentFragment`
 
 ### insertNode(node) 
 
-－ 在范围的起始处向文档中插入 `node`
+在范围的起始处向文档中插入 `node`
 
 ### surroundContents(node) 
 
-－ 以 `node` 包裹所选范围内容。要达到效果，则该范围内的所有元素都必须包含开始和结束标记：不能像 `<i>abc` 这样的部分范围。
+以 `node` 包裹所选范围内容。要达到效果，则该范围内的所有元素都必须包含开始和结束标记：不能像 `<i>abc` 这样的部分范围。
 
 ## 范围
 
