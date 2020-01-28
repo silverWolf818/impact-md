@@ -1,4 +1,16 @@
+const moment = require('moment');
+
 module.exports = {
+    plugins: [
+        [
+            '@vuepress/last-updated',
+            {
+                transformer: (timestamp) => {
+                    return moment(timestamp).format("YYYY-MM-DD HH:mm:ss");
+                }
+            }
+        ]
+    ],
     title: 'Garfield的个人空间',
     description: 'Tech Otakus Save The World',
     base: '/impact-md/',
@@ -6,7 +18,7 @@ module.exports = {
         lineNumbers: true // 代码行数
     },
     themeConfig: {
-        lastUpdated: '最后更新时间', // 最后更新时间
+        lastUpdated: '上次更新',
         sidebarDepth: 3,
         nav: [
             {
