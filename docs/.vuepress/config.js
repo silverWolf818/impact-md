@@ -33,9 +33,6 @@ module.exports = {
             }, {
                 text: 'tools',
                 link: '/tools/'
-            }, {
-                text: '练习',
-                link:'https://yaesakuras.github.io/react-ts/#/practice'
             }
 
         ],
@@ -44,6 +41,10 @@ module.exports = {
                 '/javascript/作用域是什么',
                 '/javascript/Range对象',
                 '/javascript/Selection对象',
+            ],
+            '/react/': [
+                '/react/constructor',
+                '/react/getDerivedStateFromProps',
             ]
         }
     },
