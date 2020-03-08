@@ -45,6 +45,7 @@ module.exports = {
             '/react/': [
                 '/react/constructor',
                 '/react/getDerivedStateFromProps',
+                '/react/shouldComponentUpdate',
             ]
         }
     },
