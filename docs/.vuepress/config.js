@@ -41,6 +41,7 @@ module.exports = {
                 '/javascript/作用域是什么',
                 '/javascript/Range对象',
                 '/javascript/Selection对象',
+                '/javascript/script属性async和defer',
             ],
             '/react/': [
                 '/react/constructor',
