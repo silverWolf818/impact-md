@@ -43,6 +43,9 @@ module.exports = {
                 '/javascript/Selection对象',
                 '/javascript/script属性async和defer',
             ],
+            '/css/': [
+                '/css/CSS emoji字体'
+            ],
             '/react/': [
                 '/react/constructor',
                 '/react/getDerivedStateFromProps',
