@@ -107,6 +107,7 @@ body{
 - [getemoji](https://getemoji.com/)
 - [How to use web fonts in CSS](https://blog.logrocket.com/how-to-use-web-fonts-in-css-a0326f4d6a4d/)
 - [css-tricks](https://css-tricks.com/snippets/css/system-font-stack/)
+- [Google Noto Fonts](https://www.google.com/get/noto/)
 - [关于CSS emoji字体](https://www.zhangxinxu.com/wordpress/2020/03/css-emoji-opentype-svg-fonts/)
 
 
