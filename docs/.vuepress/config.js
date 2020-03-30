@@ -50,6 +50,7 @@ module.exports = {
                 '/react/constructor',
                 '/react/getDerivedStateFromProps',
                 '/react/shouldComponentUpdate',
+                '/react/函数组件优化',
             ]
         }
     },
