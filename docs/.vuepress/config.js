@@ -31,6 +31,9 @@ module.exports = {
                 text: 'react',
                 link: '/react/'
             }, {
+                text: 'other',
+                link: '/other/'
+            }, {
                 text: 'tools',
                 link: '/tools/'
             }
@@ -51,7 +54,10 @@ module.exports = {
                 '/react/getDerivedStateFromProps',
                 '/react/shouldComponentUpdate',
                 '/react/函数组件优化',
-            ]
+            ],
+            '/other/': [
+                '/other/数据结构与算法概览'
+            ],
         }
     },
 };
