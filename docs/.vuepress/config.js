@@ -56,7 +56,8 @@ module.exports = {
                 '/react/函数组件优化',
             ],
             '/other/': [
-                '/other/数据结构与算法概览'
+                '/other/数据结构与算法概览',
+                '/other/数组'
             ],
         }
     },
